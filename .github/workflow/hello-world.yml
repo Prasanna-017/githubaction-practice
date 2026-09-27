@@ -1,6 +1,6 @@
 name: 01 - Hello World
 
-on: workflow_dispatch   #manual run button in actions
+on: workflow_dispatch   
 
 jobs:
   say-hello:                     
