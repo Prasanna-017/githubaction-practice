@@ -3,7 +3,7 @@ name: 12 - Env Scopes
 on: workflow_dispatch
 
 env:
-  NAME: Mithran
+  NAME: Prasanna 
 
 jobs:
   job1:
