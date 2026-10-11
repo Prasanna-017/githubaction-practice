@@ -23,6 +23,7 @@ jobs:
   lint:
     needs: build1
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - run: |
           echo "Linting — I run at the same time as test, not after it."
